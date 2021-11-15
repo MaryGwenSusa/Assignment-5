@@ -19,3 +19,6 @@ elif gradeP >= 85 and gradeP <= 87:
 elif gradeP >= 82 and gradeP <= 84:
     print("Grade/Mark: 2.25")
     print(f"Description: {status[3]}")
+elif gradeP >= 79 and gradeP <= 81:
+    print("Grade/Mark: 2.5")
+    print(f"Description: {status[4]}")
