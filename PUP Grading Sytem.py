@@ -31,3 +31,6 @@ elif gradeP == 75:
 elif gradeP >= 65 and gradeP <= 74:
     print("Grade/Mark: 5.00")
     print(f"Description: {status[6]}")
+else:
+    print("Grade/Mark: INC./W/D")
+    print(f"Description: {status[7]}")
