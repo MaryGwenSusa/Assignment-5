@@ -35,3 +35,5 @@ def condition(*status):
     else:
         print("Grade/Mark: INC./W/D")
         print(f"Description: {status[7]}")
+
+header()
