@@ -37,3 +37,5 @@ def condition(*status):
         print(f"Description: {status[7]}")
 
 header()
+
+gradePercentage = float(input("Grade Percentage:"))
