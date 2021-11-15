@@ -40,3 +40,4 @@ header()
 import math
 gradePercentage = float(input("Grade Percentage:"))
 gradeP = math.ceil(gradePercentage)
+condition("Remarks", "Excellent", "Very Good", "Good", "Satisfactory", "Passing", "Failure", "Incomplete/Withdrawn/Dropped")
