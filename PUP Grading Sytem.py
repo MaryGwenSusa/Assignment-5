@@ -37,5 +37,6 @@ def condition(*status):
         print(f"Description: {status[7]}")
 
 header()
-
+import math
 gradePercentage = float(input("Grade Percentage:"))
+gradeP = math.ceil(gradePercentage)
