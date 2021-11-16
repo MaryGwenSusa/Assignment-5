@@ -9,3 +9,5 @@ def numbers():
 
 lowest()
 firstGiven, secondGiven, thirdGiven = numbers()
+if thirdGiven > firstGiven <= secondGiven:
+    print(f"The lowest number is {firstGiven}.")
