@@ -6,3 +6,6 @@ def numbers():
     secondNumber = float(input("Second Number: \n >"))
     thirdNumber = float(input("Third NUmber: \n >"))
     return firstNumber, secondNumber, thirdNumber
+
+lowest()
+firstGiven, secondGiven, thirdGiven = numbers()
