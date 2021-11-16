@@ -13,3 +13,5 @@ if thirdGiven > firstGiven <= secondGiven:
     print(f"The lowest number is {firstGiven}.")
 elif thirdGiven >= secondGiven < firstGiven:
     print(f"The lowest number is {secondGiven}.")
+elif secondGiven > thirdGiven <= firstGiven:
+    print(f"The lowest number is {thirdGiven}")
